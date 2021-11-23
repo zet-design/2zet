@@ -1,9 +1,9 @@
-module.exports = ({
+module.exports = {
   basePath = "/",
   contentPath = "content/",
   showThemeLogo = true,
   theme = "classic",
-}) => {
+} => {
   return {
     siteMetadata: {
       description: "Personal page of John Doe",
